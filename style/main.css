@@ -1,0 +1,255 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Roboto";
+	font-style: normal;
+	overflow-x: auto;
+}
+body.notOverflow {
+	overflow: hidden;
+	padding-right: 21px;
+}
+
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+.container {
+	max-width: 1070px;
+	margin: 0 auto;
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 700;
+	color: #19191b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn {
+	min-width: 212px;
+	max-height: 60px;
+	padding: 19px 60px;
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: -0.531474px;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+.header {
+	background: rgba(255, 113, 67, 0.27);
+	padding: 38px 0px 48px;
+}
+
+.nav_item {
+	display: inline-block;
+}
+.nav_item:not(:first-of-type) {
+	margin-left: 49px;
+}
+.nav_link {
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.468947px;
+	color: #696871;
+}
+.nav_link:hover {
+	color: #19191b;
+	transition: 300ms;
+}
+
+.btn_orange {
+	background: #ff7143;
+}
+.btn_orange:hover {
+	background: #ff8b64;
+}
+
+.about {
+	margin-top: 104px;
+}
+.about_title {
+	font-size: 80px;
+	line-height: 77px;
+	letter-spacing: -2.50105px;
+}
+.about_text {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: -0.625263px;
+	color: #696871;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+._btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn_violet {
+	background: #5454d4;
+	transition: 500ms;
+}
+.btn_violet:hover {
+	color: #5454d4;
+	background: #ffffff;
+	border: 1px solid #5454d4;
+	transition: 500ms;
+}
+.btn_transparent {
+	color: #5454d4;
+	border: 1px solid #5454d4;
+	transition: 500ms;
+}
+.btn_transparent:hover {
+	background: #5454d4;
+	color: #ffffff;
+	transition: 500ms;
+}
+.about_hero {
+	margin-left: 108px;
+}
+
+.subscription {
+	margin-top: 85px;
+}
+.subscription_text {
+	width: 556px;
+}
+.subscr_title {
+	font-size: 50px;
+	line-height: 57px;
+	letter-spacing: -1.56316px;
+}
+.subscr {
+	margin-top: 38px;
+}
+.subscr_input {
+	width: 302px;
+	height: 60px;
+	border: 1px solid #7087ff;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 17px;
+	line-height: 22px;
+	padding-left: 14px;
+
+	margin-right: 39px;
+}
+.container.pay {
+	display: block;
+}
+.pay {
+	margin-top: 85px;
+	margin-bottom: 132px;
+}
+.pay_title {
+	max-width: 504px;
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -1.87579px;
+	margin-bottom: 90px;
+}
+.pay_items {
+	display: flex;
+}
+.pay_item {
+	width: 330px;
+	height: 441px;
+	display: flex;
+	flex-direction: column;
+	background: #f8f8f8;
+	border-radius: 10px;
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: -0.531474px;
+	color: #696871;
+}
+.pay_item.item_orange {
+	color: #ffffff;
+	margin: 0px 40px;
+	background: #ff7143;
+	box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+.pay_item_title {
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 34px;
+}
+.pay_item_price {
+	height: 56px;
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 56px;
+	letter-spacing: -1.03448px;
+	color: #1d293f;
+	margin-top: 25px;
+	margin-bottom: 24px;
+}
+.pay_item_price.white {
+	color: #ffffff;
+}
+.pay_item_price span {
+	font-size: 28px;
+}
+.btn_pay {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 285px;
+	background: #ffffff;
+	border: 1px solid #eae9f2;
+	color: #5454d4;
+}
+.btn_pay:hover {
+	background: #5454d4;
+	color: #ffffff;
+	transition: 500ms;
+}
+.btn_dark {
+	color: #ffffff;
+	background: #9f3919;
+	border: none;
+}
+
+.footer {
+	background: rgba(255, 113, 67, 0.27);
+	padding: 53px 0px 52px;
+}
